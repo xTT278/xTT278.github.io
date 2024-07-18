@@ -120,7 +120,7 @@ var plat = plats_1[i];
 }
 //door collision
 if (level === 1) {
-if((Math.abs(player_x - door[0]) < 15) && (Math.abs(player_y - door[1])<30)) {
+if((Math.abs(player_x - door[0]) < 20) && (Math.abs(player_y - door[1])<30)) {
   level++
 player_x = 1000;
 player_y = 590;
